@@ -1437,8 +1437,8 @@ export async function callUpdate(callUpdate) {
     let callmsg = await this.reply(nk.from, `مرحبا *@${nk.from.split('@')[0]}*, ال ${nk.isVideo ? 'مكالمات فيديو' : 'المكالمات'} غير مسموح به ، سيتم حظرك.\n-\nإذا اتصلت بالخطأ ، فاتصل بمنشئ المحتوى الخاص بي لإلغاء حظرك!`, false, { mentions: [nk.from] })
     //let data = global.owner.filter(([id, isCreator]) => id && isCreator)
     //await this.sendContact(nk.from, data.map(([id, name]) => [id, name]), false, { quoted: callmsg })
-     let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𓅃⍣𝑁𝐴𝑇𝑺𝑈 𝐵𝛩𝑇✭ 𓅃⍣⃝𝑁𝐴𝑇𝑺𝑈 𝐵𝛩𝑇✭ 👑;;;\nFN:𓅃⍣⃝𝑁𝐴𝑇𝑺𝑈 𝐵𝛩𝑇✭ Elshamhout 👑\nORG:𓅃⍣⃝𝑁𝐴𝑇𝑺𝑈 𝐵𝛩𝑇✭ Elshamhout 👑\nTITLE:\nitem1.TEL;waid=: \nitem1.X-ABLabel:𓅃⍣⃝𝑁𝐴𝑇𝑺𝑈 𝐵𝛩𝑇✭👑\nX-WA-BIZ-◤ 𓅃⍣⃝𝑁𝐴𝑇𝑺𝑈 𝐵𝛩𝑇✭ ◢:[❗] كلم الرقم ده - المطور.\nX-WA-BIZ-NAME:𓅃⍣⃝𝑁𝐴𝑇𝑺𝑈 𝐵𝛩𝑇✭ 👑\nEND:VCARD`
-    await this.sendMessage(nk.from, { contacts: { displayName: '𓅃⍣⃝𝑁𝐴𝑇𝑺𝑈 👑', contacts: [{ vcard }] }}, {quoted: callmsg})
+     let vcard = `BEGIN:VCARD\nVERSION:3.0\nN:;𓅃⍣𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇✭ 𓅃⍣⃝𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇✭ 👑;;;\nFN:𓅃⍣⃝𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇✭ naruto 👑\nORG:𓅃⍣⃝𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇✭ naruto 👑\nTITLE:\nitem1.TEL;waid=: \nitem1.X-ABLabel:𓅃⍣⃝𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇✭👑\nX-WA-BIZ-◤ 𓅃⍣⃝𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇✭ ◢:[❗] كلم الرقم ده - المطور.\nX-WA-BIZ-NAME:𓅃⍣⃝𝐼𝑇𝐴𝐶𝐻𝐼 𝐵𝛩𝑇✭ 👑\nEND:VCARD`
+    await this.sendMessage(nk.from, { contacts: { displayName: '𓅃⍣⃝𝐼𝑇𝐴𝐶𝐻𝐼 👑', contacts: [{ vcard }] }}, {quoted: callmsg})
     await this.updateBlockStatus(nk.from, 'block')
     }
     }
@@ -1464,7 +1464,7 @@ export async function deleteUpdate(message) {
 *—◉ #الغاء مضاد الحذف*
 *—◉ #تفعيل الحذف*
 *❈↲ متساش تكلم المطور يحب
-𝑁𝐴𝑇𝑺𝑈 Bot
+𝐼𝑇𝐴𝐶𝐻𝐼 Bot
 ━━━━⬣  *الحذف التلقائي*  ⬣━━━━
 `.trim(), msg, {
             mentions: [participant]
@@ -1489,7 +1489,7 @@ global.dfail = (type, m, conn) => {
         restrict: '*『 الميزه دي المالك لغيها ! 』*'
     }[type]
     let aa = { quoted: m, userJid: conn.user.jid }
-    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] تنبيه - إشعار', body: '⍣⃝𝑁𝐴𝑇𝑺𝑈', thumbnail: imagen1, sourceUrl: 'https://chat.whatsapp.com/KoFS4bZiHXe6gr1p0ONNcJ' }}}}, aa)
+    let prep = generateWAMessageFromContent(m.chat, { extendedTextMessage: { text: msg, contextInfo: { externalAdReply: { title: '[ ⚠ ] تنبيه - إشعار', body: '⍣⃝𝑁𝐴𝑅𝑈𝑇𝑂', thumbnail: imagen1, sourceUrl: 'https://chat.whatsapp.com/KoFS4bZiHXe6gr1p0ONNcJ' }}}}, aa)
     if (msg) return conn.relayMessage(m.chat, prep.message, { messageId: prep.key.id })
     //if (msg) return m.reply(msg)
 }
