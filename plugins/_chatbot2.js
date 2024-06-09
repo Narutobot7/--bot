@@ -23,7 +23,7 @@ let handler = m => m
  } 
   
  if (/^انا جيت$/i.test(m.text) ) { //sem prefixo 
-     conn.reply(m.chat, `ننورت ارجع تاني بقا`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
+     conn.reply(m.chat, `نورت ارجع تاني بقا`, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
   
@@ -53,7 +53,7 @@ let handler = m => m
   
  }  
   
- if (/^احبك يوريتشي$/i.test(m.text) ) { //sem prefixo 
+ if (/^احبك ايتاشي$/i.test(m.text) ) { //sem prefixo 
      conn.reply(m.chat, ` انا اكتر ✨🥹💜 `, m) //wm, null, [['Menu', '#menu']], m) botones :V 
   
  } 
