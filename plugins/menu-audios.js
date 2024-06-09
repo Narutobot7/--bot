@@ -40,9 +40,9 @@ import { createHash } from 'crypto'
  let readMore = more.repeat(850) 
  let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
  let str = `
-*㋡ اسـم الـبوت : 𝒀𝑶𝑹𝑰𝑪𝑯𝑰* 💬
+*㋡ اسـم الـبوت : 𝐼𝑇𝐴𝐶𝐻𝐼* 💬
 *㋡ حط قبل كل امر : .* ⚙️
-*㋡ اســم الـمطور : 𝒀𝑶𝑹𝑰𝑪𝑯𝑰* 👨‍💻
+*㋡ اســم الـمطور : 𝑁𝐴𝑅𝑈𝑇𝑂* 👨‍💻
 *㋡ البوت شغـال مـنذ : ${uptime}* ⏲️
 *㋡ المنـصه : Heroku* 🌐
 *㋡ المنشن : ${taguser}* 📌
@@ -170,9 +170,9 @@ import { createHash } from 'crypto'
 *㋡ـــ͙͢♪♤♪͙͢ـــ حقوق المطور ـــ͙͢♪♤♪͙͢ـــ*
 
 *㋡〄رقم المطور〄*
-*㋡◐↯ده: https://wa.me/01008592761* 
+*㋡◐↯ده: https://wa.me/01224563219* 
 *㋡〄جروب المطور〄*
-*㋡◐↯ده: لسا معملتش جروب🙂* 
+*㋡◐↯ده: https://chat.whatsapp.com/CNuQUPtQQmXEtZh6Xu76XE🙂* 
 *㋡〄يوتيوب المطور〄*
 *㋡◐↯ده: *
 
